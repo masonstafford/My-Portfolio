@@ -10,7 +10,6 @@ body {
     height: 100%;
 }
 
- /* made a change */
 .header{
     margin-bottom: 30px;
 }
@@ -21,12 +20,10 @@ nav .logo {
     text-align: center;
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
-    font-size: 0.8rem; /*wont work, not sure why*/
     padding: 15px 0;
     
 }
 
- /* made a change */
 .nav-link {
    padding: 20px 15px 20px 15px;
 }
@@ -42,17 +39,17 @@ a {
     font-size: 16px;
 }
 
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+}
+
 .bin {
     background-color: #ffffff;
     height: 60%;
     padding: 0 15px;
     margin: 0 20px 0 20px;
-     /* made a change */
     max-width: 728px;
-    max-height: 568.59px;
-    /* made a change */
-    margin-left: 63px;
-    margin-top: 48px;
 }
 
 h2 {
@@ -108,7 +105,7 @@ h6 {
     padding: 20px 20px;
     background-color: rgb(100, 100, 100);
     color: #ffffff9a;
-    margin-top: auto;
+    margin-top: 28px;
 }
 
 @media screen and (max-width: 979px) {
@@ -125,7 +122,6 @@ body {
     height: 100%;
 }
 
- /* made a change */
 .header{
     margin-bottom: 30px;
 }
@@ -136,11 +132,9 @@ nav .logo {
     text-align: center;
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
-    font-size: 0.8rem; /*wont work, not sure why*/
     padding: 15px 0;
 }
 
- /* made a change */
 .nav-link {
    padding: 20px 15px 20px 15px;
 }
@@ -156,17 +150,18 @@ a {
     font-size: 16px;
 }
 
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+}
+
 .bin {
     background-color: #ffffff;
     height: 60%;
     padding: 0 15px;
     margin: 0 20px 0 20px;
-     /* made a change */
     max-width: 728px;
-    max-height: 568.59px;
-    /* made a change 
-    margin-left: 63px;
-    margin-right: 63px; */
+    margin-top: 28px;
 }
 
 h2 {
@@ -222,7 +217,7 @@ h6 {
     padding: 20px 20px;
     background-color: rgb(100, 100, 100);
     color: #ffffff9a;
-    margin-top: auto;
+    margin-top: 28px;
 }
 
 @media screen and (max-width: 767px) {
@@ -245,7 +240,6 @@ h6 {
         text-align: center;
         font-family: 'Playfair Display', serif;
         letter-spacing: 1px;
-        font-size: 0.8rem; /*wont work, not sure why*/
         padding: 15px 0;
     }
     
@@ -259,6 +253,11 @@ h6 {
     a {
         color: darkgrey;
         font-size: 16px;
+    }
+    
+    .wrapper {
+        min-height: 100vh;
+        width: 100%;
     }
     
     .bin {
@@ -322,7 +321,7 @@ h6 {
         padding: 20px 20px;
         background-color: rgb(100, 100, 100);
         color: #ffffff9a;
-        margin-top: auto;
+        margin-top: 28px;
     }
 
 }
